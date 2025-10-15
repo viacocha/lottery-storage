@@ -16,7 +16,7 @@ import (
 
     "github.com/klauspost/compress/zstd"
     "github.com/viacocha/lottery-storage/record"
-    "github.com/voacocha/lottery-storage/writer"
+    "github.com/viacocha/lottery-storage/writer"
 )
 
 func readBlkIdx(idxPath string) (map[uint32]uint64, error) {
