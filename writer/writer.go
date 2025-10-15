@@ -9,7 +9,7 @@ import (
     "time"
 
     "github.com/klauspost/compress/zstd"
-    "github.com/example/lottery-storage/record"
+    "github.com/viacocha/lottery-storage/record"
 )
 
 const BlockMagic uint32 = 0x4C4F5442
